@@ -1,0 +1,75 @@
+h1,
+h2 {
+  text-align: center;
+  font-size: 49px;
+}
+.first {
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  color: #a1c4fd;
+}
+.first2 {
+  border-radius: 13px;
+  padding: 15px;
+  line-height: 1.5;
+  font-size: 26px;
+}
+button {
+  margin: 0;
+  color: black;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgb(47, 110, 247);
+}
+marquee {
+  font-size: 27px;
+  font-weight: 700;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.review {
+  background-color: #c2e9fb;
+  padding: 5px;
+  border-radius: 9px;
+}
+.event1 {
+  font-size: 19px;
+}
+footer .contact-box {
+  background-color: aliceblue;
+  padding: 30px 100px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+footer .email-link:hover {
+  color: blue;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: blue;
+  background: palevioletred;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 1ooms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: lightskyblue;
+}
+img {
+  background-color: #a1c4fd;
+  border-radius: 9px;
+}
