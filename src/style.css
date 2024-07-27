@@ -1,3 +1,6 @@
+body {
+  background-color: palevioletred;
+}
 h1,
 h2 {
   text-align: center;
@@ -27,7 +30,7 @@ button {
 marquee {
   font-size: 27px;
   font-weight: 700;
-  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-image: linear-gradient(120deg, #cbdce3,);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
@@ -42,7 +45,6 @@ marquee {
 footer .contact-box {
   background-color: aliceblue;
   padding: 30px 100px;
-  border-radius: 10px;
   margin-top: 15px;
 }
 footer .contact-box p {
@@ -58,8 +60,8 @@ footer .email-link:hover {
 }
 footer .social-links a {
   margin: 0 20px;
-  color: blue;
-  background: palevioletred;
+  color: #fff;
+  background: black;
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
@@ -72,4 +74,36 @@ footer .social-links a:hover {
 img {
   background-color: #a1c4fd;
   border-radius: 9px;
+}
+@media (max-width: 430px) {
+  .review {
+    font-size: 10px;
+    line-height: 11px;
+    padding: 1px;
+   
+  }
+  h1,h2 {
+    font-size: 29px;
+  }
+  .drss {
+    margin-bottom: 6px;
+    padding: 22px;
+  }
+.facts {
+  text-align: center;
+}
+.event1 {
+  line-height: 18px;
+  font-size: 13px;
+}
+.event11 {
+  padding: 0;
+   margin: 0;
+  overflow: hidden;
+  width: 180px;
+}
+.first2 {
+  line-height: 22px;
+  font-size: 16px;
+}
 }
